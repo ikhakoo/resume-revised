@@ -1,502 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-	<title>Imran Khakoo - Full Stack Web Developer</title>
+    <title>Imran Khakoo Ruby on Rails Developer</title>
 
-	<!-- CSS -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="assets/css/animate.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
     
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
     
-    <script src="assets/js/modernizr.custom.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+    <script src="http://www.mattboldt.com/demos/typed-js/js/typed.custom.js"></script>
 
-       
-</head>
-<body>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-	<!-- Preloader -->
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
 
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
-
-	<!-- Home start -->
-
-	<section id="home" class="pfblock-image screen-height">
-        <div class="home-overlay"></div>
-		<div class="intro">
-			<div class="start">Hello, my name is Imran Khakoo and I am a</div>
-			<h1>Full Stack Web Developer</h1>
-			<div class="start">creating modern and responsive Web Applications</div>
-		</div>
-
-        <a href="#services">
-		<div class="scroll-down">
-            <span>
-                <i class="fa fa-angle-down fa-2x"></i>
-            </span>
-		</div>
-        </a>
-
-	</section>
-
-	<!-- Home end -->
-
-	<!-- Navigation start -->
-
-	<header class="header">
-
-		<nav class="navbar navbar-custom" role="navigation">
-
+	<div id="section-topbar">
+		<div id="topbar-inner">
 			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">Imran Khakoo</a>
-				</div>
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
 
-				<div class="collapse navbar-collapse" id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Works</a></li>
-                        <li><a href="#skills">Skills</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Imran Khakoo</h1>
+					<h3>Ruby on Rails Developer | ikhakoo@gmail.com</h3>
+				<div class="typed">
+	      	<h3 class="element">I am </h1>
+	      </div>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	
 
-			</div><!-- .container -->
-
-		</nav>
-
-	</header>
-
-	<!-- Navigation end -->
-
-    <!-- Services start -->
-
-	<section id="services" class="pfblock pfblock-gray">
+	<section id="about" name="about"></section>
+	<div id="intro">
 		<div class="container">
 			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">This is what I do</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							A Ruby on Rails Developer with a passion for problem solving...
-						</div>
-					</div>
-
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
 				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInLeft">
-						<div class="iconbox-icon">
-							<span class="icon-puzzle"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Applications</h3>
-							<div class="iconbox-desc">
-								Clean code following industry standards
-							</div>
-						</div>
-					</div>
-
+				<div class="col-lg-6">
+					<p>I'm a Ruby on Rails developer and former Network Administrator with over 4 years of professional experience. I have the ability and experience required to design and implement complex software projects for a diverse set of users.</p>
 				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInLeft">
-						<div class="iconbox-icon">
-							<span class="icon-magic-wand"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Responsive Design</h3>
-							<div class="iconbox-desc">
-								Techniques to provide the best UX/UI
-							</div>
-						</div>
-					</div>
-
+				<div class="col-lg-3">
+					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
 				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
 
-				<div class="col-sm-3">
 
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-badge"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
-							<div class="iconbox-desc">
-								Establishing brand awareness and generating traffic 
-							</div>
-						</div>
-					</div>
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
 
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
 				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-question"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Consultation</h3>
-							<div class="iconbox-desc">
-								Providing Independent Consulting for your site/application
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Services end -->
-    
-	<!-- Portfolio start -->
-
-	<section id="portfolio" class="pfblock">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My works</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							I have created applications ranging from simple CRM Databases to intricate Social Network style applications.
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-            
-            
-            <div class="row">
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    
-                    <div class="grid wow zoomIn">
-                    	<a href="https://github.com/ikhakoo/fanzone">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-1.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Over <span>Time</span></h2>
-                                <p>A Social Network for Sports Fans</p>
-                            </figcaption>			
-                        </figure>
-                      </a>
-                    </div>
-                    
-                </div>
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                    	<a href="http://elearning-group.herokuapp.com">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-2.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Learn <span>It</span></h2>
-                                <p>An Interactive eLearning application</p>
-                            </figcaption>			
-                        </figure>
-                       </a>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                     <a href="https://github.com/ikhakoo/react-photogur">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-3.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>React <span>Photogur</span></h2>
-                                <p>An Imgur Clone built in react-rails</p>
-                            </figcaption>			
-                        </figure>
-                       </a>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                    	<a href="https://github.com/ikhakoo/ember-rails-api">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-4.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Rails API<br><span>with Ember</span></h2>
-                                <p>A Rails API serving an Ember js Front End</p>
-                            </figcaption>			
-                        </figure>
-                      </a>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                     <a href="https://apuniforms.herokuapp.com">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-5.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>AP <span>Uniforms</span></h2>
-                                <p>An eCommerce solution for a re-seller</p>
-                            </figcaption>			
-                        </figure>
-                       </a>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                    	<a href="https://github.com/tryshoppe/shoppe">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-6.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Shoppe <br><span>Open Source Contributor</span></h2>
-                                <p>An eCommerce engine (that drives AP Unfiroms)</p>
-                            </figcaption>			
-                        </figure>
-                       </a>
-                    </div>
-                    
-                </div>
-                
-            </div>
-
-
-		</div><!-- .contaier -->
-
-	</section>
-
-	<!-- Portfolio end -->
-    
-    <!-- Skills start -->
-    
-    <section class="pfblock pfblock-gray" id="skills">
-		
-			<div class="container">
-			
-				<div class="row skills">
-					
-					<div class="row">
-
-                        <div class="col-sm-6 col-sm-offset-3">
-
-                            <div class="pfblock-header wow fadeInUp">
-                                <h2 class="pfblock-title">My Skills</h2>
-                                <div class="pfblock-line"></div>
-                                <div class="pfblock-subtitle">
-                                    Creating custom Web Applications using clean code and following industry standards. Integrating modern frameworks such as Bootstrap and Semantic-UI, layered with JavaScript/JQuery/AJAX to provide the most impeccable User Experience.
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div><!-- .row -->
-					
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">95</span>
-                        </span>
-						<h3 class="text-center">Ruby on Rails</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
-                        </span>
-						<h3 class="text-center">HTML5/CSS3</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
-                        </span>
-						<h3 class="text-center">Bootstrap/Semantic-UI</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="75" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">75</span>
-                        </span>
-						<h3 class="text-center">JavaScript/JQuery/AJAX</h3>
-					</div>
-					
-				</div><!--End row -->
-			
-			</div>
-		
-    </section>
-    
-    <!-- Skills end -->
-
-	<!-- CallToAction start -->
-
-	<section class="calltoaction">
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
-					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						I'm available for full-time, contract and freelance opportunities. <br>Click Download below to receive the latest copy of my resume
-					</div>
-				</div>
-
-				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="https://github.com/ikhakoo/resume-revised/blob/master/assets/ImranKhakoo-Resume.pdf" class="btn btn-lg">DOWNLOAD</a>
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- CallToAction end -->
-
-	<!-- Contact start -->
-
-	<section id="contact" class="pfblock">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header">
-						<h2 class="pfblock-title">Drop me a line</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							Feel free to contact me if you'd like to discuss future opportunities.
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<form id="contact-form" role="form">
-						<div class="ajax-hidden">
-							<div class="form-group wow fadeInUp">
-								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
-								<label class="sr-only" for="c_email">Email</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
-							</div>
-
-							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
-						</div>
-						<div class="ajax-response"></div>
-					</form>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Contact end -->
-
-	<!-- Footer start -->
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-12">
-
-					<ul class="social-links">
-						<li><a href="https://twitter.com/TheRealSUMP" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://plus.google.com/u/0/108051830464225884948/about" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="https://www.linkedin.com/pub/imran-khakoo/6a/639/561" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://github.com/ikhakoo" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-github"></i></a></li>
-					</ul>
-
-					<p class="heart">
-                        Imran Khakoo
-                    </p>
-                    <p class="copyright">
-                        Full Stack Web Developer
+				<div class="col-lg-6">
+					<p><t>Web Development</t><br/>
+						Bitmaker Labs <br/>
+						<i>9-week program</i>
 					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>July 2015</sm><br/>
+					</p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
 
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Ruby on Rails Developer</t><br/>
+						Cambridge Brain Sciences <br/>
+					</p>
+					<p><more>Full Stack Developer for a Toronto based start-up that provides scientifically proven tools for the assessment of cognitive function over the web.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2016 - PRESENT</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Ruby on Rails Developer</t><br/>
+						Hashtagpaid <br/>
+					</p>
+					<p><more>Back-end developer for an up and coming startup. I have been tasked with architecting majority of the back-end infrastructure and I am in charge of deployments. Worked in an AGILE environment broken down into two week sprints and daily SCRUM meetings. Worked closely with the CEO and UX/UI designer to ensure architecture meets the needs of the business. Was also tasked with writing majority of the Javascript, jQuery, and AJAX. The stack consisted of Ruby on Rails, Postgres, Elastic Search, HTML5/CSS3, Javascript (vanilla), and jQuery. Nginx was used to serve the application and Capistrano for deployment.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SEPTEMBER 2015 - JUNE 2016</sm></p>
 				</div>
 
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</footer>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Systems Analyst</t><br/>
+						Ministry of the Attorney General <br/>
+					</p>
+					<p><more>Worked with design team and managed a database built in Dynamics CRM using .NET MVC Framework. Assisted with QA, creating UAT environments, and providing feedback to the developers by creating requests using Team Foundation Server. Worked with Microsoft Active Directory. Worked with MS SQL Server and exported data sets to run statistical analysis against. Ensured server backups are completed and data integrity is maintained. Provided IT support services by performing troubleshooting on desktops, laptops, printers, and mobile devices. Received multiple awards in the area of outstanding achievement and excellence.
+</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MARCH 2012 - MARCH 2015</sm></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+	
+	
+	<!--SKILLS DESCRIPTION -->
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>Ruby</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>Rails</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="wordpress" height="130" width="130"></canvas>
+						<p>JavaScript</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 85,
+										color:"#1abc9c"
+									},
+									{
+										value : 15,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 85,
+										color:"#1abc9c"
+									},
+									{
+										value : 15,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="photoshop" height="130" width="130"></canvas>
+						<p>jQuery/AJAX</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 85,
+										color:"#1abc9c"
+									},
+									{
+										value : 15,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="illustrator" height="130" width="130"></canvas>
+						<p>SQL</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
 
-	<!-- Footer end -->
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
 
-	<!-- Scroll to top -->
 
-	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
+
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PORTFOLIO</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+					<p>HASHTAGPAID.com</p>
+				<p><more>Developed their marketplace platform.<br/><br/>
+					<sm><i class="icon-tag"></i> ruby</sm>
+					<sm><i class="icon-tag"></i> rails</sm>
+					<sm><i class="icon-tag"></i> postgresql</sm>
+					<sm><i class="icon-tag"></i> javascript</sm>
+					<sm><i class="icon-tag"></i> jquery</sm>
+					<sm><i class="icon-tag"></i> ajax</sm>
+					<sm><i class="icon-tag"></i> stripe</sm>
+					<sm><i class="icon-tag"></i> salesforce</sm>
+					<sm><i class="icon-tag"></i> instagram</sm>
+					<sm><i class="icon-tag"></i> twitter</sm> 
+					<sm><i class="icon-tag"></i> aws</sm></more>
+				</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port02.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>APUNIFORMS.com</p>
+					<p><more>An eCommerce solution for a medical wear re-seller.<br/><br/>
+						<sm><i class="icon-tag"></i> ruby</sm>
+					<sm><i class="icon-tag"></i> rails</sm>
+					<sm><i class="icon-tag"></i> postgresql</sm>
+					<sm><i class="icon-tag"></i> javascript</sm>
+					<sm><i class="icon-tag"></i> jquery</sm>
+					<sm><i class="icon-tag"></i> ajax</sm>
+					<sm><i class="icon-tag"></i> heroku</sm></more>  
+					</p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
+	
+
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						ikhakoo@gmail.com <br/>
+					</p>
+					<p><t>Location</t><br/>
+						Toronto, ON <br/>
+						Canada <br/>
+					</p>
+					<p><t>Phone</t><br/>
+						+1 647 290 9686 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="https://github.com/ikhakoo"><i class="icon-github"></i></a>
+						<a href="https://twitter.com/TheRealSump"><i class="icon-twitter"></i></a>
+						<a href="https://ca.linkedin.com/in/imran-khakoo-5616396a"><i class="icon-linkedin"></i></a>
+
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Imran Khakoo | Web Developer</a></p>
+		
+		</div>
 	</div>
-    
-    <!-- Scroll to top end-->
+	
 
-	<!-- Javascript files -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
 
-	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.cbpQTRotator.js"></script>
-	<script src="assets/js/custom.js"></script>
+    <script>
 
-</body>
+    $(function(){
+		  $(".element").typed({
+		    strings: ["a strong conceptual thinker.", "an experienced developer.", "a team player.", "a tech enthusiast.", "an entrepreneur."],
+		    typeSpeed: 100,
+		    backSpeed: 100,
+		    backDelay: 1000
+		  });
+		});
+		</script>
+  </body>
 </html>
